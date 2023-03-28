@@ -9,12 +9,10 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
 public class appiumDay1 {
 
     @Test
     public void app() throws MalformedURLException {
-
         DesiredCapabilities desiredCapabilities= new DesiredCapabilities();
 
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
